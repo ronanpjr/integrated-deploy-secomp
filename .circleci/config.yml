@@ -25,7 +25,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: echo "Build do projeto iniciada às $(date +%r)"
+          command: echo "Nova Build do projeto iniciada às $(date +%r)"
 
   test-and-build-backend:
     docker:
