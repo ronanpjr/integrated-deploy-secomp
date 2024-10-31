@@ -28,7 +28,7 @@ jobs:
     resource_class: small
     steps:
       - run:
-          command: echo "Build do projeto iniciada às $(date +%r)"
+          command: echo "up Build do projeto iniciada às $(date +%r)"
       - discord/status:
           success_message: "Workflow de #${CIRCLE_SHA1:0:7} iniciado..."
 
